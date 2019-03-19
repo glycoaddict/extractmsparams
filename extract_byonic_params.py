@@ -9,6 +9,22 @@ execute the parse_byparms_df(), or execute()
 import custom_tools
 import pandas as pd
 import re
+import tkinter as tk
+
+
+class gui():
+    def __init__(self):
+        top = tk.Tk()
+        top.title = 'Extract Byonic parameters'
+
+        b = tk.Button(top, text='Click to run extract byonic parameters', command=self.button_extract_byparms)
+        b.pack(pady=10)
+
+        top.mainloop()
+
+    def button_extract_byparms(self):
+        get_text_from_byparms_file()
+
 
 
 def get_text_from_byparms_file():
@@ -268,5 +284,6 @@ def parse_fragment_unit(fragment_unit_int):
 
 if __name__ == '__main__':
     # df = byparms_into_df()
-    byparms = get_text_from_byparms_file()
-    print(byparms)
+    # byparms = get_text_from_byparms_file()
+    # print(byparms)
+    g = gui()
