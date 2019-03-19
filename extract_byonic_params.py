@@ -5,7 +5,7 @@ execute the parse_byparms_df(), or execute()
 """
 
 
-import os
+# import os
 import custom_tools
 import pandas as pd
 import re
@@ -59,7 +59,8 @@ def parse_multiline_string(s):
     :param s:
     :return:
     """
-    return [x.strip() for x in s.strip().split('\n')]
+    result = [x.strip() for x in s.strip().split('\n')]
+    return result
 
 
 def initialise_salient_dict_keys():
