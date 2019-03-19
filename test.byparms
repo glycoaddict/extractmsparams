@@ -1,0 +1,96 @@
+#PMi-Byonic parameters v1.4.0
+#Registered to: Matthew Choo BTI
+#Build info: v3.1.0 -- master (Tue 07/31/2018 03:41 AM); Com
+#Java version: 1.8.0_144
+#Java home: C:\Program Files\Java\jre1.8.0_144
+#OS Arch: amd64
+#OS Name: Windows 7
+#OS Version: 6.1
+#
+#Wed Mar 13 12:42:34 SGT 2019
+combyne_sqlite_enable=1
+apply_charges_text=
+skip_bad_spectra=1
+n_glycan_checkbox=0
+lock_mass_list=815.214126
+DatabaseFiles=C\:\\Analytics_Fusion\\FASTA\\uniprot_sprot_with_decoys_from_decoypyrat.fasta
+Custom_xlink=0
+common_max=1
+results_suffix=[spec]_[fasta]
+ProteomeDiscovererVersion=
+fragment_mass_error=0.25
+schema_version=2
+DSS_xlink=0
+DebugMode=0
+random_sample_size=400
+export_mzIdentML_checkbox=0
+min_chunk_size=500
+combyne_auto_score=1
+precursor_mass_max=10000.0
+max_chunk_size=2000
+output_results=1
+off_by_one=1
+machine_type=2
+recal_coeffs=
+msconvert_filter=
+wildcard_residues=
+max_precursors=1
+rare_max=1
+score_version=2
+DebugText=
+add_decoys=0
+precursor_mass_error=15.0
+glycan_text=% Custom modification text below\n
+nglycan_quick_reject_labile_scale=0.01
+Wildcard=0
+maximum_missed_cleavages=4
+extra_text=
+xlink_decoys_checkbox=0
+deisotoped_spectra_checkbox=0
+chunking_method=2
+DigestLetters=RKDE
+PARAMETER_VERSION=1.4.0
+output_top_scores=0
+combyne_min_score=0
+precursor_unit=0
+mod_text=Carbamidomethyl / +57.021464 @ C | fixed\nAmidated / -0.984016 @ D, E | rare1\n% Custom modification text below\n
+combyne_fdr=
+OutputFolder=C\:\\Analytics_Fusion\\ByonicOutput\\06_calnexin
+Trisulfide_text=Trisulfide / 29.956421 @ C | xlink
+enable_promote_score_nglycan=0
+apply_charges_index=1
+precursor_ppm_hardcut=0
+byonic_sqlite_enable=1
+add_contaminants=0
+DSS_xlink_text=DSS / 138.0680796 @ K | xlink\nXlink\:DSS / 156.078644 @ K | common2 % Dead end
+centroid_prefer_type=2
+recal_option=0
+combyne_extra_params=
+protein_fdr_pulldown=0
+centroid_width_type=0
+quick_reject_wildcard=99.0
+disulfide_protein_groups=1
+precursor_assignments=1
+xlink_details=
+wildcard_delta=0
+DigestCutterType=0
+centroid_width_val=0.01
+Disulfide=0
+quick_reject=95.0
+Custom_xlink_text=
+wildcard_max_mass=100
+o_glycan_checkbox=0
+fragment_ppm_hardcut=0
+features_text=
+Disulfide_text=Disulfide / -2.015650 @ C | xlink
+fragment_unit2=0
+Trisulfide=0
+wildcard_min_mass=-40
+xlink_decoys_mass_offset=11
+centroid_topk=1000
+SpectraFiles=Z\:\\Analytics\\Lab data backup\\Orbitrap Fusion\\2019\\01b Calnexin Gels\\010102_sCANX_CTRL_Tryp+GluC_MedMW_Gold_RA3_1.byspec2
+focused_database_checkbox=0
+DigestType=2
+fragment_mass_error2=20.0
+fragment_unit=1
+output_report=0
